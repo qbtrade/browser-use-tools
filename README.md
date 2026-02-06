@@ -11,16 +11,20 @@
 # 2. 安装 Node.js 和 uv
 brew install node uv
 
-# 3. 克隆项目
-git clone <repo-url>
+# 3. 安装 GitHub CLI 并登录
+brew install gh
+gh auth login
+
+# 4. 克隆项目
+gh repo clone qbtrade/browser-use-tools
 cd browser-use-tools
 
-# 4. 安装 Python 依赖
+# 5. 安装 Python 依赖
 uv sync
 
-# 5. 安装 Node.js 依赖
+# 6. 安装 Node.js 依赖
 npm install
 
-# 6. 安装 Playwright 浏览器
+# 7. 安装 Playwright 浏览器
 npx playwright install
 ```
