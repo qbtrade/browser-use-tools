@@ -1,0 +1,26 @@
+{
+  "name": "browser-use-demo",
+  "version": "1.0.0",
+  "description": "Browser automation demo with pi-ai OAuth and browser-use-node",
+  "main": "main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx main.ts",
+    "login": "npx @mariozechner/pi-ai login openai-codex",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mariozechner/pi-ai": "^0.51.6",
+    "browser-use-node": "^0.1.11",
+    "playwright": "^1.58.1",
+    "playwright-core": "^1.40.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

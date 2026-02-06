@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+
+# Auth tokens (敏感信息)
+auth.json
+
+# Build output
+dist/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Browser profile
+.browser-use-profile/
